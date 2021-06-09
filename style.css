@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fad700;
+  }
+  
+  .flyContainer {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+  }
+  
+  .flyImage {
+    height: 50px;
+    position: absolute;
+  }
